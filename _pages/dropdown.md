@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: resources
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Element
+      permalink: https://element.condmat.org
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Github
+      permalink: https://github.com/
 ---
