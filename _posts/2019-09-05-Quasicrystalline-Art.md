@@ -2,6 +2,7 @@
 title: Quasicrystalline Art
 layout: post
 published: true
+category: art
 ---
 
 <div style="text-align:center">
