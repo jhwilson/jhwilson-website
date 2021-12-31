@@ -2,7 +2,7 @@
 layout: post
 title: Current in Single Particle Quantum Mechanics
 published: true
-category: short calculations
+category: short-calculations
 ---
 
 For simplicity, I will only use one-dimension in this post, but this can be generalized to higher dimensions rather easily.

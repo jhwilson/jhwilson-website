@@ -2,7 +2,7 @@
 title: The effect of a bound state on the continuum
 layout: post
 published: true
-category: short calculations
+category: short-calculations
 ---
 
 In models that naturally have a continuum, it is sometimes possible to find bound states with the application of a potential well.
