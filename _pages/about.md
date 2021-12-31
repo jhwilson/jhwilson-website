@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>202 Nicholson Hall,</p>
+    <p>293 Nicholson Hall,</p>
     <p>Dept. of Physics & Astronomy,</p>
     <p>Louisiana State University,</p>
     <p>Baton Rouge, LA 70803</p>
