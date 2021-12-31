@@ -2,6 +2,7 @@
 layout: post
 title: Subtleties in linear response theory
 published: true
+category: short calculations
 ---
 
 In linear response theory, we consider some small perturbation to a Hamiltonian and look at the response of some observable to that perturbation. In the case considered here, the perturbation is an electric field, and the response is current. The linear response that characterizes these quantities is called the conductance.

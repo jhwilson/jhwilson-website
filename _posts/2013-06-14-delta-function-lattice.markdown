@@ -2,6 +2,7 @@
 layout: post
 title: The delta-function Potential Lattice
 published: true
+category: short calculations
 ---
 
 I was messing around with some simple problems, and found this simple but illustrative problem. It starts you off in basic quantum mechanics and introduces concepts in a very straightforward way to both get to a more condensed matter perspective while even showing some interesting effects that have experimental consequences (energy bands and band gaps opening).

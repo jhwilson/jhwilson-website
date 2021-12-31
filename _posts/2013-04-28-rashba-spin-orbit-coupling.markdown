@@ -2,6 +2,7 @@
 layout: post
 title: Spin-orbit coupled Hamiltonian
 published: true
+category: short calculations
 ---
 
 For applications in many parts of condensed matter physics and cold atoms physics, we use what is known as the Rashba spin-orbit coupled Hamiltonian. This Hamiltoninan is so-named because it couples momentum $$\mathbf{p}$$
