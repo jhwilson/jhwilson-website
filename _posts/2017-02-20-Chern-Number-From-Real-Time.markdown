@@ -2,7 +2,7 @@
 layout: post
 title: Pulsing a two-band model to discover topology
 published: true
-category: short calculations
+category: short-calculations
 ---
 
 In systems with an anomalous quantum Hall effect, the quantized Hall conductivity comes from the integral of a Chern number over some manifold. Usually, this integral is derived via Kubo formula.
