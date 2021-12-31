@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>202 Nicholson Hall,</p>
+    <p>293 Nicholson Hall,</p>
     <p>Dept. of Physics & Astronomy,</p>
     <p>Louisiana State University,</p>
     <p>Baton Rouge, LA 70803</p>
