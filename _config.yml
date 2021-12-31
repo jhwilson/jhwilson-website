@@ -260,7 +260,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: Wilson 
-  first_name: [Justin, H.]
+  first_name: [Justin H., Justin H, Justin, J. H., J.]
 
   style: american-physics-society
   locale: en
