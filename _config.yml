@@ -183,7 +183,7 @@ jekyll-archives:
 scholar:
 
   last_name: Wilson 
-  first_name: [Justin H., Justin H, Justin, J. H., J.]
+  first_name: [Justin H., Justin H, Justin, J. H., J., J H]
 
   style: american-physics-society
   locale: en
