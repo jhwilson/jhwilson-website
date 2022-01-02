@@ -41,7 +41,7 @@ $$
 \end{equation}
   $$
 
-  Using our forms of $$\psi_0(x)$$ on either side of zero, we have $$\psi'(0^+) = - \kappa \psi_0(0)$$ and $$\psi_0(0^-) = +\kappa \psi(0)$$. Putting these into \eqref{eq:matching}, we have
+  Using our forms of $$\psi_0(x)$$ on either side of zero, we have $$\psi_0'(0^+) = - \kappa \psi_0(0)$$ and $$\psi_0(0^-) = +\kappa \psi_0(0)$$. Putting these into \eqref{eq:matching}, we have
 
   $$
   \begin{equation}
