@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a theoretical and computational condensed matter theorist with a diverse set of interests from quantum materials to quantum information and analog gravity. 
 
-My general philosophy to physics is well summarized by the late Phil Anderson's famous article [More is Different](https://www-science-org.libezp.lib.lsu.edu/doi/10.1126/science.177.4047.393). Fundamental to our understanding of the universe is _how_ matter interacts to create materials and phases; quantum mechanics and field theory underpin this understanding and is a key point of study within condensed matter theory.
+My general philosophy to physics is well summarized by the late Phil Anderson's famous article [More is Different](https://www.science.org/doi/10.1126/science.177.4047.393). Fundamental to our understanding of the universe is _how_ matter interacts to create materials and phases; quantum mechanics and field theory underpin this understanding and is a key point of study within condensed matter theory.
 
 I received my Ph.D. in 2015 with [Victor Galitski](https://jqi.umd.edu/people/victor-galitski), did a first postdoc at Caltech with [Gil Refael](http://gilrefael.org/), and a second at Rutgers with [Jed Pixley](https://sites.rutgers.edu/pixley-group/people/jed-pixley/).
 In 2021, I joined the faculty at Louisiana State University as an Assistant Professor.
