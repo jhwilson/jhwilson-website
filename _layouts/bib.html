@@ -84,6 +84,9 @@
       {% if entry.copyright %}
         &copy; {{entry.year}} {{entry.copyright}}
       {% endif %}
+      {% if entry.copyleft %}
+        {{entry.copyleft}}
+      {% endif %}
       </div>
     {% endif %}
 
