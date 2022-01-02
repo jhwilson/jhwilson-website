@@ -131,6 +131,9 @@
         </div>
         <div class="periodical">
           {{ entry.note | strip }}
+      {% if entry.copyleft %}
+        {{entry.copyleft}}
+      {% endif %}
         </div>
 
           <!-- Links/Buttons -->
