@@ -19,7 +19,7 @@ The general strategy here is to convert this potential into a matching condition
 
 $$
 \begin{equation}
-  -\frac1{2m}[\psi'(0^+) - \psi'(0^-)] = \lambda \psi(0).
+  -\frac1{2m}[\psi'(0^+) - \psi'(0^-)] = \lambda \psi(0). \label{eq:matching}
 \end{equation}
 $$
 
@@ -30,6 +30,42 @@ $$
   \psi_0(x) = \sqrt{m\lambda}\, e^{- m\lambda |x|}, \quad E= -\tfrac12 m\lambda^2
 \end{equation}
 $$
+
+{% details Expand for derivation %}
+  ***
+  We require the bound state to be square integrable, so $$\psi_0(x) = \mathcal N e^{-\kappa x}$$ for $$x>0$$ and $$\psi_0(x) = \mathcal N e^{\kappa x}$$ for $$x<0$$. In both cases, we can evaluate \eqref{eq:schro}
+
+  $$
+\begin{equation}
+  -\frac{\kappa^2}{2m} \psi_0(x) = E\psi_0(x), \quad \implies \kappa = \sqrt{-2mE}. \label{eq:bs_energy}
+\end{equation}
+  $$
+
+  Using our forms of $$\psi_0(x)$$ on either side of zero, we have $$\psi'(0^+) = - \kappa \psi_0(0)$$ and $$\psi_0(0^-) = +\kappa \psi(0)$$. Putting these into \eqref{eq:matching}, we have
+
+  $$
+  \begin{equation}
+    \frac{\kappa}{m} \psi_0(0) = \lambda \psi_0(0).
+  \end{equation}
+  $$
+
+  This means that $$\kappa = \lambda m$$, and matching this to \eqref{eq:bs_energy} we find $$E = -\frac12 m \lambda^2$$. All that is left is normalization and simply
+
+  $$
+  \begin{equation}
+    \begin{aligned}
+    1 & = \int dx |\psi_0(x)|^2
+     & = 2 \int_0^\infty dx \mathcal N^2 e^{-2\kappa x}
+     & = \frac{\mathcal N^2}{\kappa}.
+    \end{aligned}
+  \end{equation}
+  $$
+
+  This gives us $$\mathcal N = \sqrt{\kappa} = \sqrt{\lambda m}$$, completing our derivation.
+
+  ***
+
+{% enddetails %}
 
 <div style="text-align:center">
 {% include figure.html path="assets/img/pot_and_boundstate.png" caption="The delta function potential (red) along with the resulting bound state (gray)." class="img-fluid rounded z-depth-1" zoomable=true %}
