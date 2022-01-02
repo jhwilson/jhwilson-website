@@ -54,8 +54,8 @@ $$
   $$
   \begin{equation}
     \begin{aligned}
-    1 & = \int dx |\psi_0(x)|^2
-     & = 2 \int_0^\infty dx \mathcal N^2 e^{-2\kappa x}
+    1 & = \int dx |\psi_0(x)|^2 \\
+     & = 2 \int_0^\infty dx \mathcal N^2 e^{-2\kappa x} \\
      & = \frac{\mathcal N^2}{\kappa}.
     \end{aligned}
   \end{equation}
