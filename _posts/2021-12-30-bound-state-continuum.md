@@ -95,7 +95,58 @@ $$
 \end{equation}
 $$
 
-This is again chosen such that $$\int dx \; \psi_k^c(x) \psi_{k'}^c(x) = \pi \delta(k - k')$$.  Taken together, we can now define the (local) density of states for the continuum
+This is again chosen such that $$\int dx \; \psi_k^c(x) \psi_{k'}^c(x) = \pi \delta(k - k')$$.
+
+{% details Expand for derivation %}
+
+***
+
+First, $$\psi_k^s(x) = \sin(k x)$$ is a complete basis for antisymmetric wavefunctions, and therefore, we know that $$\psi_k^c(-x) = \psi_k^c(x)$$ in order to maintain orthogonality with $$\psi_k^s(x)$$. 
+This implies that if for $$x>0$$ we have $$\psi_k^c(x) = A \cos(kx) + B \sin(kx)$$, then for $$x<0$$, $$\psi_k^c(x) = A \cos(kx) - B \sin(kx)$$ justifying our functional form.
+
+We have already guaranteed continuity across $$x=0$$, so now we just need to satisfy the matching conditions \eqref{eq:matching} for which we have $${\psi_k^{c}}'(0^+) = B k$$ and $${\psi_k^{c}}'(0^-) = -B k$$ and therefore by \eqref{eq:matching}
+
+$$
+\begin{equation}
+ - \frac{B k}m = A \lambda \quad \implies \quad B = -\frac{\lambda m}{k} A
+\end{equation}
+$$
+
+All that is left is normalization (fixing $$A$$). For this, we introduce a regulator $$ e^{-\delta \lvert x \rvert} $$ and take it to be small
+
+$$
+\begin{equation}
+\begin{aligned}
+ \int dx \, \psi_k^c(x) \psi_{p}^c(x) e^{-\delta |x|} & = 2 A^2 \int_0^\infty dx \, \left(\cos k x - \frac{\lambda m}{k} \sin kx \right)\left(\cos p x - \frac{\lambda m}{p} \sin px \right)e^{-\delta x} \\
+ & = 2A^2 \frac{\delta (k^2 + p^2 + \delta^2 - 2\delta \lambda^2 m^2 + 2 \lambda^4 m^4)}{(k^2 - p^2)^2 + 2 (k^2 + p^2)\delta^2 + \delta^4}
+\end{aligned}
+\end{equation}
+$$
+
+If $$k \neq p$$, then this expression goes to zero as $$\delta \rightarrow 0$$, and it appears to diverge with $$1/\delta$$ if $$k = p$$, a hallmark of a Dirac delta function.
+In fact, making sure this integrates to $$\pi$$ when we integrate with respect to $$k$$ or $$p$$ gives us exactly
+
+$$
+\begin{equation}
+\int_0^\infty dp \, 2A^2 \frac{\delta (k^2 + p^2 + \delta^2 - 2\delta \lambda^2 m^2 + 2 \lambda^4 m^4)}{(k^2 - p^2)^2 + 2 (k^2 + p^2)\delta^2 + \delta^4}  = A^2 \pi \frac{(\lambda^2 m^2 + k^2 - \lambda m \delta + \delta^2)}{k^2 + \delta^2}
+\end{equation}
+$$
+
+As $$\delta \rightarrow 0$$ then, we obtain
+
+$$
+\begin{equation}
+ A = \frac1{\sqrt{1 + \lambda^2 m^2/k^2}},
+\end{equation}
+$$
+
+completing this derivation.
+
+***
+
+{% enddetails %}
+
+Taken together, we can now define the (local) density of states for the continuum
 
 $$
 \begin{equation}
