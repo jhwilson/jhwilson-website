@@ -44,6 +44,10 @@ Relevant papers will be sent out or printed as needed.
 
 Homework can be "collaborative," but everyone needs to write-up their own. When stepping through logic and math, use complete sentences and explain what you are doing. 
 
+Homeworks use the class file [jhwhw.cls](/assets/tex/jhwhw.cls). See [this stack exchange post](https://tex.stackexchange.com/questions/31183/class-file-for-homework-assignments/31230#31230) for information on how to use it.
+
+- Homework 1 (Due Jan 28): [pdf](/assets/pdf/phys7364_hw1.pdf) / [tex](/assets/tex/phys7364_hw1.tex)
+
 # Final presentation
 
 Take 1 paper from the [cond-mat arXiv](https://arxiv.org/archive/cond-mat) that will appear between now and end of March (cross-listings are OK).  Make a presentation about this material that answers the following questions:
