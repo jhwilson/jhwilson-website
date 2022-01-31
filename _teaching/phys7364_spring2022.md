@@ -47,7 +47,7 @@ Homework can be "collaborative," but everyone needs to write-up their own. When 
 Homeworks use the class file [jhwhw.cls](/assets/tex/jhwhw.cls). See [this stack exchange post](https://tex.stackexchange.com/questions/31183/class-file-for-homework-assignments/31230#31230) for information on how to use it.
 
 - Homework 1 (Due Jan 28): [pdf](/assets/pdf/phys7364_hw1.pdf) / [tex](/assets/tex/phys7364_hw1.tex)
-- Homework 2 (Due Feb 4): [pdf](/assets/pdf/phys7364_hw2.pdf) / [tex](/assets/tex/phys7364_hw2.tex) -- [benzene.py](/assets/code/benzene.py)
+- Homework 2 (Due Feb 11): [pdf](/assets/pdf/phys7364_hw2.pdf) / [tex](/assets/tex/phys7364_hw2.tex) -- [benzene.py](/assets/code/benzene.py)
 
 # Final presentation
 
