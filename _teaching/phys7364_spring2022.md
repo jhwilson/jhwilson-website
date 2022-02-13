@@ -48,6 +48,7 @@ Homeworks use the class file [jhwhw.cls](/assets/tex/jhwhw.cls). See [this stack
 
 - Homework 1 (Due Jan 28): [pdf](/assets/pdf/phys7364_hw1.pdf) / [tex](/assets/tex/phys7364_hw1.tex)
 - Homework 2 (Due Feb 11): [pdf](/assets/pdf/phys7364_hw2.pdf) / [tex](/assets/tex/phys7364_hw2.tex) -- [benzene.py](/assets/code/benzene.py)
+- Homework 3 (Due Feb 25): [pdf](/assets/pdf/phys7364_hw3.pdf) / [tex](/assets/tex/phys7364_hw3.tex) -- [chain_3_cycle.py](/assets/code/chain_3_cycle.py)
 
 # Final presentation
 
