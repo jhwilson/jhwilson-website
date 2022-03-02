@@ -49,6 +49,7 @@ Homeworks use the class file [jhwhw.cls](/assets/tex/jhwhw.cls). See [this stack
 - Homework 1 (Due Jan 28): [pdf](/assets/pdf/phys7364_hw1.pdf) / [tex](/assets/tex/phys7364_hw1.tex)
 - Homework 2 (Due Feb 11): [pdf](/assets/pdf/phys7364_hw2.pdf) / [tex](/assets/tex/phys7364_hw2.tex) -- [benzene.py](/assets/code/benzene.py)
 - Homework 3 (Due Feb 25): [pdf](/assets/pdf/phys7364_hw3.pdf) / [tex](/assets/tex/phys7364_hw3.tex) -- [chain_3_cycle.py](/assets/code/chain_3_cycle.py)
+- Homework 4 (Due Mar 11): [pdf](/assets/pdf/phys7364_hw4.pdf) / [tex](/assets/tex/phys7364_hw4.tex)
 
 # Final presentation
 
@@ -74,9 +75,9 @@ Take 1 paper from the [cond-mat arXiv](https://arxiv.org/archive/cond-mat) that 
     4. Kitaev Chain and Majorana fermions
 * Berry phase
     1. Theory
-    2. SSH model
+    2. SSH model -- [Topological Classification]({% post_url 2022-02-20-SSH-model %})
     3. Charge pumping
-* Quantum Hall Effect
+* Quantum Hall Effect -- [Lecture notes for 1 and 2 below](/assets/pdf/QHE%20lecture%20notes.pdf)
     1. With magnetic field
     2. [TKNN](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.49.405)
     3. Without a magnetic field (anomalous Hall effect)
