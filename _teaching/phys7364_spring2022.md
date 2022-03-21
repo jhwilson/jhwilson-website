@@ -50,6 +50,7 @@ Homeworks use the class file [jhwhw.cls](/assets/tex/jhwhw.cls). See [this stack
 - Homework 2 (Due Feb 11): [pdf](/assets/pdf/phys7364_hw2.pdf) / [tex](/assets/tex/phys7364_hw2.tex) -- [benzene.py](/assets/code/benzene.py)
 - Homework 3 (Due Feb 25): [pdf](/assets/pdf/phys7364_hw3.pdf) / [tex](/assets/tex/phys7364_hw3.tex) -- [chain_3_cycle.py](/assets/code/chain_3_cycle.py)
 - Homework 4 (Due Mar 21; 10:30am): [pdf](/assets/pdf/phys7364_hw4.pdf) / [tex](/assets/tex/phys7364_hw4.tex)
+- Homework 5 (Due Mar 4; 10:30am): [pdf](/assets/pdf/phys7364_hw5.pdf) / [tex](/assets/tex/phys7364_hw5.tex) -- [haldane_bsr.py](/assets/code/haldane_bsr.py), [haldane_bcurv.py](/assets/code/haldane_bcurv.py), [haldane_topo.py](/assets/code/haldane_topo.py)
 
 # Final presentation
 
@@ -80,7 +81,7 @@ Take 1 paper from the [cond-mat arXiv](https://arxiv.org/archive/cond-mat) that 
 * Quantum Hall Effect -- [Lecture notes for 1 and 2 below](/assets/pdf/QHE%20lecture%20notes.pdf)
     1. With magnetic field
     2. [TKNN](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.49.405)
-    3. Without a magnetic field (anomalous Hall effect)
+    3. Without a magnetic field (anomalous Hall effect) -- [Haldane model](/assets/pdf/Haldane%20model.pdf)
 * Path integrals & Green's functions
     1. Single-particle 
     2. Wick's theorem
