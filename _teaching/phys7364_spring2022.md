@@ -52,6 +52,7 @@ Homeworks use the class file [jhwhw.cls](/assets/tex/jhwhw.cls). See [this stack
 - Homework 4 (Due Mar 21; 10:30am): [pdf](/assets/pdf/phys7364_hw4.pdf) / [tex](/assets/tex/phys7364_hw4.tex)
 - Homework 5 (Due Apr 4; 10:30am): [pdf](/assets/pdf/phys7364_hw5.pdf) / [tex](/assets/tex/phys7364_hw5.tex) -- [haldane_bsr.py](/assets/code/haldane_bsr.py), [haldane_bcurv.py](/assets/code/haldane_bcurv.py), [haldane_topo.py](/assets/code/haldane_topo.py)
 - Homework 6 (Due Apr 18; 10:30am): [pdf](/assets/pdf/phys7364_hw6.pdf) / [tex](/assets/tex/phys7364_hw6.tex)
+- Homework 7 (Due May 2; 10:30am): [pdf](/assets/pdf/phys7364_hw7.pdf) / [tex](/assets/tex/phys7364_hw7.tex)
 
 # Final presentation
 
