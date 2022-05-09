@@ -9,6 +9,8 @@ importance: 1
 - Prof. Justin H. Wilson
 - Email: jhwilson@lsu.edu
 
+# [Final Exam](/assets/pdf/phys7364_final.pdf) DUE 12 May at 12:00pm
+
 **The first five classes will occur over Zoom**
 
 # Course description
