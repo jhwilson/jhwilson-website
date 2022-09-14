@@ -64,7 +64,7 @@ $$
 \end{equation}
 $$
 **This is what it means, in general, for a Lagrangian to have a (continuous) symmetry.** For the action to have a symmetry and produce the same equations of motion, the Lagrangian can differ by at most a full derivative.
-This is a powerful statement: it is true regardless of path, it just a property of the action itself.
+This is a powerful statement: it is true regardless of path, it is just a property of the action itself.
 We will use it for the extremal paths that minimize the action in order to derive Noether's theorem.
 
 To prove Noether's theorem we consider a (small) time dependence of $\alpha = \alpha(t)$.
@@ -82,7 +82,7 @@ $$
 $$
 where notice that we have a term proportional to $\dot \alpha(t)$.
 
-Explicitly making the expansion
+Explicitly, we can make the expansion
 $$
 \begin{equation}
 \begin{aligned}
@@ -143,6 +143,7 @@ $$
 our first ingredient in computing our conserved quantity $Q$.
 
 Next, we need to consider what happens to the action itself. In this case, it is helpful to (1) consider the Lagrangian along with the infinitesimal $dt$ that it comes with as part of the action and (2) define the time transformation $\tau_\alpha =t + \alpha \delta t(x, \dot x, t) + \cdots$. 
+With these, our statement of symmetry under this spacetime transformation implies that the Lagrangian transforms as follows 
 
 $$
 \begin{equation}
@@ -150,7 +151,7 @@ $$
 \end{equation}
 $$
 
-Or in otherwords,
+Or in otherwords, we reorganize terms to obtain
 $$
 \begin{equation}
    L\bigg(\sigma(x, \alpha), \frac{d}{dt} \sigma(x,\alpha)\bigg) = \frac{d\tau_\alpha}{dt} L( x(\tau_\alpha), \dot x(\tau_\alpha)).
