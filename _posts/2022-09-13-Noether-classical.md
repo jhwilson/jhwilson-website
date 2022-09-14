@@ -156,7 +156,7 @@ $$
    L\bigg(\sigma(x, \alpha), \frac{d}{dt} \sigma(x,\alpha)\bigg) = \frac{d\tau_\alpha}{dt} L( x(\tau_\alpha), \dot x(\tau_\alpha)).
 \end{equation}
 $$
-This makes sense: If you change variables on the right (integrating over $t$) using $\tau_\alpha = t$, you would get the normal action that already know and love.
+This makes sense: If you change variables on the right (integrating over $t$) changing $t$ to $\tau_\alpha$, you would get the normal action that already know and love.
 
 If we expand the right though, (calling it $L_\alpha$), we obtain
 $$
