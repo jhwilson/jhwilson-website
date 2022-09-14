@@ -198,15 +198,16 @@ $$
 \begin{equation}
    \begin{aligned}
      t & \mapsto t + \alpha, \\
-     \theta & \mapsto \theta + \omega \alpha.
+     \theta & \mapsto \theta - \omega \alpha.
    \end{aligned} 
 \end{equation}
 $$
+(The minus signs comes from the following algebra $\theta(t) - \omega t \mapsto \theta(t + \alpha) - \omega (t + \alpha)$, notice that $t$ does not explicitly change but $\theta(t)\mapsto \theta(t + \alpha) - \omega \alpha$.)
 
 Using what we have shown in \eqref{eq:xtQ} (generalized to higher dimensions), we have a conserved quantity
 $$
 \begin{equation}
-   Q = E + \omega \frac{\partial L}{\partial \dot \theta}  = E + \omega L_z,
+   Q = E - \omega \frac{\partial L}{\partial \dot \theta}  = E - \omega L_z,
 \end{equation}
 $$
 a quantity that is a combination of both energy and angular momentum about the $z$-axis (which are separately not conserved but this combination _is_).
