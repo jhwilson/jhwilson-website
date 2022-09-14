@@ -40,7 +40,8 @@ $$
 \end{equation}
 $$
 The general statement is that $S[q] = S[\sigma(q, \alpha)]$ for any $\alpha$ (and neglecting boundary terms -- terms which depend exclusively on $q$ or $\dot q$ at the initial or final times).
-Importantly, $\sigma(q, 0) = q$, so that we can expand $\sigma(q, \alpha) = q + \frac{\partial \sigma}{\partial \alpha}\big\rvert_{\alpha = 0} \alpha + \cdots$.
+The function $\sigma(q,\alpha)$ represents our symmetry transformation (it could be rotations $\alpha = \theta$, time translations, spatial translations, or something even more complicated).
+Importantly, we define $\sigma(q, 0) = q$, so that we can expand $\sigma(q, \alpha) = q + \frac{\partial \sigma}{\partial \alpha}\big\rvert_{\alpha = 0} \alpha + \cdots$ allowing us to make _infinitesimal_ symmetry transformations.
 Writing out the action explicitly,
 
 $$
