@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  Justin H. Wilson
+
+
+  | Subtleties in linear response theory
+
+</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="https://jhwilson.github.io/blog/2014/Subtleties-in-linear-response-theory/">
+
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://jhwilson.github.io/">
+       <span class="font-weight-bold">Justin</span> H.  Wilson
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                resources
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="https://element.condmat.org" target="_blank" rel="noopener noreferrer">Element</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          
+            <div class="toggle-container">
+              <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+
+
+
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Subtleties in linear response theory</h1>
+    <p class="post-meta">December 22, 2014</p>
+    <p class="post-tags">
+      <a href="/blog/2014"> <i class="fas fa-calendar fa-sm"></i> 2014 </a>
+      
+
+      
+        ·  
+        
+        <a href="/blog/category/short-calculations">
+          <i class="fas fa-tag fa-sm"></i> short-calculations</a>  
+          
+      
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <p>In linear response theory, we consider some small perturbation to a Hamiltonian and look at the response of some observable to that perturbation. In the case considered here, the perturbation is an electric field, and the response is current. The linear response that characterizes these quantities is called the conductance.
+<!--more--></p>
+
+<p>There’s a problem though, an electric field <em>accelerates</em> a charge. Consider a classical electron for the time being, then</p>
+
+\[\begin{align}
+m \ddot x(t) = - e \mathbf{E}. \label{eq:Newton} 
+\end{align}\]
+
+<p>Or in terms of current \(j(t) = -e \dot x(t)\), \(\frac{d j}{dt} = \frac{e^2}{m} \mathbf{E}\). From here we can quickly and naively go to frequency space to find \(j(\omega) = i \frac{e^2/m}{\omega} \mathbf{E}(\omega)\). Then one might remember that another way to define \(\mathbf{E}\) is in terms of a vector potential that is purely time-dependent, so \(\mathbf{E}(\omega) = i \omega \mathbf A(\omega)\). Now, if we just plug this into our linear response for the current, we get</p>
+
+\[j(\omega) = - \frac{ e^2}{m} \mathbf A(\omega). \label{eq:jA}\]
+
+<p>All is well and good, right? Well, not quite. In electromagnetism, the constant part of \(\mathbf A(t)\) corresponds to the \(\omega = 0\) term of \(A(\omega)\). This represents what is known as a “pure gauge”. These gauges are <em>physically equivalent</em> to the null field \(\mathbf A(\omega=0) = 0\). Thus, whatever linear response is represented above at \(\omega = 0\) must be unphysical, right?</p>
+
+<p>Wrong.</p>
+
+<p>Before explainging why this is wrong, let’s give some further context to this linear response theory. The term \(- e^2/m\) is actually the single particle term of what is known as the “diamagnetic” response to the conductivity when you add in more electrons (usually distributed in a Fermi distribution). This term persists in quantum mechanics, and no other terms appear to cancel it in the simplest case of \(H = \frac{p^2}{2m}\). In fact, while the math becomes more cumbersome, the solution we shall illustate below holds perfectly well for even the non-interacting multi-electron system.</p>
+
+<p>Now, at this point you may have guessed that there’s something strange going on at \(\omega = 0\) due to the fact that the electric field <em>accelerates</em> the particle and doesn’t just have a velocity response. At the \(\omega = 0\) point, the <em>physical</em> field \(E(\omega)\) seems to necessarily be equal to zero in the gauge we have prescribed unless \(A(\omega) \sim 1/\omega\) for small \(\omega\). This would lead to a divergent \(j(\omega)\), restoring our faith that the system is accelerating out of control.</p>
+
+<p>But what about when \(\mathbf{A}(\omega=0) = \mathbf{A}_0\)? It seems like then we have a true velocity response to an unphysical object. The solution is subtle: At some point in the quick derivation we made an assumption that implied \(\mathbf A(t) \rightarrow 0\) at \(t \rightarrow -\infty\). This implies that if \(\mathbf A(t) = \mathbf A_0\) at any finite time, there had to be some time in between where \(d\mathbf A/ dt \neq 0\). Thus, during that “ramp up” time, an electric field was on and it accelerated the charge to a specific velocity resulting in the current \(j(\omega) = - \frac{ e^2}{m} \mathbf A(\omega)\).</p>
+
+<p>The assumption is subtle, but the result is rather simple. For now, just assume that \(\mathbf A(-\infty) = 0\) and at some \(t_0\), \(\mathbf A(t_0) = \mathbf A_0\), then we can integrate Eq. \eqref{eq:Newton} to obtain the velocity:</p>
+
+\[m \dot x (t_0) =  e \int_{-\infty}^{t_0} \frac{d \mathbf A}{d t} d t = e \mathbf A_0.\]
+
+<p>Or, in other words, \(\mathbf j(t_0) = -\frac{e^2}{m} \mathbf A_0\), the same as before! This is how a constant \(\mathbf A_0\) can be physical: When it represents the change from a different constant vector potential.</p>
+
+<p>Now, to isolate the assumption, let us run through what they were</p>
+
+<ol>
+  <li>\(\frac{d j}{d t} = \frac{e^2}{m} E(t)\).</li>
+  <li>Take the Fourier transform: \(j(\omega) = i \frac{e^2/m}{\omega} E(\omega)\).</li>
+  <li>Insert vector potential with \(E = -\frac{d}{dt} A\) and <em>assume the Fourier transform exists</em> for \(A\): \(j(\omega) = - \frac{e^2}m A(\omega)\).</li>
+  <li>Undo the Fourier transform: \(j(t) = - \frac{e^2}{m} A(t)\).</li>
+</ol>
+
+<p>Now, let us get the last equation (in #4 above) by a simpler route.</p>
+
+<ol>
+  <li>\(\frac{d j}{dt} = \frac{e^2}{m} E(t)\).</li>
+  <li>Use \(E = - \frac{d}{dt} A\) and integrate the above expression from \(-\infty\) to \(t\): \(j(t) - j(-\infty) = -\frac{e^2}{m} ( A(t) - A(-\infty))\).</li>
+</ol>
+
+<p>Two perfectly legitimate calculations resulting in different results. Firstly, this highlights that the first procedure does actually assume \(A(-\infty) = 0\). Secondly, the only assumptions that could have given \(j(-\infty) = 0\) (an assumption we probably wanted anyway) and \(A(-\infty) = 0\) are that they could be given in terms of Fourier transforms. In order for a function to have a Fourier transform it needs to be <em>absolutely integrable</em>—i.e. \(\int_{-\infty}^\infty \lvert A(t) \rvert dt \lt \infty\). Given \(A(t)\) as a continuous, piece-wise differentiable function, we need \(A(t) \rightarrow 0\) for \(t \rightarrow \pm \infty\). This imposes our gauge, and since we are not interested in future times let alone \(t \rightarrow +\infty\), we can artificially modify the function as we see fit to accomodate that. But how the function began at \(-\infty\) is important, and we must impose that. Hence, we have chosen, at least partially, a gauge.</p>
+
+<p>We are left with a dilemma then about pure plain waves \(A(t) = A(\omega) e^{-i \omega t}\). How do those function?</p>
+
+<p>Technically, they are outside of the bounds of the Fourier analysis and we can see that simply by the fact that if we tried to do the above procedure, we couldn’t have a well defined answer as \(t \rightarrow -\infty\) (too oscillatory). However, we can approximate the plain wave in terms of an absolutely integrable function \(A_\delta(t) = A(\omega) e^{-i (\omega + i \delta) t}\) for any \(\delta \gt 0\), and everything works. This shows us explicitly that \(t = - \infty\) does have \(A_\delta \rightarrow 0\) for all \(\delta \gt 0\). And this is the origin of the well known substitution \(\omega \rightarrow \omega + i\delta\).</p>
+
+<p>The natural question to ask now is how this works for a real system (with dissipation). Why does such a term not exist at zero frequency?</p>
+
+<p>Unless your system is a superconductor, there is some dissipation in the system.
+The simplest way to include this is classically: When an electron is going at velocity \(\dot x(t)\) it experiences a “drag” that tends to slow it down.
+Thus, our Newton’s equations become</p>
+
+\[m \ddot x(t) = - m \gamma \dot x(t) - e \mathbf E\]
+
+<p>where \(\gamma\) describes how much drag the electron experiences.
+For more disorder, this would be a larger number.
+Playing the same Fourier transform game, we can obtain rather quickly that</p>
+
+\[j(\omega) = - \frac{e^2}{m} \frac{\omega}{\omega  +i  \gamma}  A(\omega).\]
+
+<p>This is just one step away from the well-known <a href="http://en.wikipedia.org/wiki/Drude_model" target="_blank" rel="noopener noreferrer">Drude model</a>.
+We see that if \(A(t) = A_0\), then \(j(\omega) = 0\).
+But our gauge choice that we described before is still in place, the only difference is that our “kick” at \(t=-\infty\) has an infinite time to dissipate back to rest (the inclusion of \(\gamma\) above is critical for \(j(\omega=0) =0\)).
+This also suggests a steady state current when \(\mathbf E\) is constant: \(m\ddot x=0\) implies \(j = \frac{e^2}{m \gamma} \mathbf E\).
+Our current relaxes to zero when there’s nothing around (\(\mathbf E = 0\)), as we would expect.</p>
+
+<p>When a quantum mechanical description is done—by taking a random disorder potential and averaging over disorder configurations—one obtains similar results.
+The diamagnetic term for a <em>clean system</em> is real and has a physically well defined explanation.</p>
+
+<p>One may not be surprised that this curious “diamagnetic term” occurs for superconductors, however it is sometimes explained that “gauge symmetry is broken” and that is why such a term exists.
+This is a misleading statement, but one I will explore in a future post.</p>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    © Copyright 2023 Justin H. Wilson.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+  
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  
+
+
+
+
+
+</html>
