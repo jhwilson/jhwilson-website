@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jhwilson.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jhwilson.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-13T18:35:11+00:00</updated><id>https://jhwilson.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Noether’s theorem in classical mechanics</title><link href="https://jhwilson.github.io/blog/2022/Noether-classical/" rel="alternate" type="text/html" title="Noether’s theorem in classical mechanics" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://jhwilson.github.io/blog/2022/Noether-classical</id><content type="html" xml:base="https://jhwilson.github.io/blog/2022/Noether-classical/"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jhwilson.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jhwilson.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-13T20:03:56+00:00</updated><id>https://jhwilson.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Noether’s theorem in classical mechanics</title><link href="https://jhwilson.github.io/blog/2022/Noether-classical/" rel="alternate" type="text/html" title="Noether’s theorem in classical mechanics" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://jhwilson.github.io/blog/2022/Noether-classical</id><content type="html" xml:base="https://jhwilson.github.io/blog/2022/Noether-classical/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Noether’s (first) theorem is one of the most important theorems in physics. It relates well known <em>conserved</em> quantities of energy, momentum, charge, and more to fundamental symmetries of our equations of motion. It plays a role in classical mechanics as it does elsewhere in physics, but many text books separate out time/energy from momentum conservations and gloss over the most general proof – which crucially misses cases where time and space must transform together to reveal a symmetry.</p>
 
@@ -165,25 +165,19 @@ The model is a simple tight-binding model representing polyacetelyne C<sub>2</su
 
 <div class="row mt-3" id="figure-1">
     <div class="col-sm mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/polyacetylene.svg-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/polyacetylene.svg-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/polyacetylene.svg-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/polyacetylene.svg-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/polyacetylene.svg-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/polyacetylene.svg-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/polyacetylene.svg" />
+    <img src="/assets/img/polyacetylene.svg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
@@ -253,25 +247,19 @@ Lastly, the energy bands look like</p>
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-6 mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/ssh-energy-bands.svg-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/ssh-energy-bands.svg-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/ssh-energy-bands.svg-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/ssh-energy-bands.svg-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/ssh-energy-bands.svg-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/ssh-energy-bands.svg-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-0" src="/assets/img/ssh-energy-bands.svg" />
+    <img src="/assets/img/ssh-energy-bands.svg" class="img-fluid rounded z-depth-0" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
@@ -303,25 +291,19 @@ Lastly, the energy bands look like</p>
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-6 mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/winding-or-not.svg-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/winding-or-not.svg-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/winding-or-not.svg-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/winding-or-not.svg-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/winding-or-not.svg-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/winding-or-not.svg-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-0" src="/assets/img/winding-or-not.svg" />
+    <img src="/assets/img/winding-or-not.svg" class="img-fluid rounded z-depth-0" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
@@ -395,25 +377,19 @@ Under these constraints, any path can be continuously deformed onto just a singl
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-6 mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/spheres_equator-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/spheres_equator-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/spheres_equator-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/spheres_equator-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/spheres_equator-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/spheres_equator-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-0" src="/assets/img/spheres_equator.png" />
+    <img src="/assets/img/spheres_equator.png" class="img-fluid rounded z-depth-0" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
@@ -473,25 +449,19 @@ In polyacetyline this is not an actual symmetry since no physical process preven
     <div class="col-sm mt-3 mt-md-0">
     </div>
     <div class="col-6 mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/inversion_polyacetylene.svg-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/inversion_polyacetylene.svg-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/inversion_polyacetylene.svg-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/inversion_polyacetylene.svg-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/inversion_polyacetylene.svg-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/inversion_polyacetylene.svg-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-0" src="/assets/img/inversion_polyacetylene.svg" />
+    <img src="/assets/img/inversion_polyacetylene.svg" class="img-fluid rounded z-depth-0" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
@@ -522,49 +492,37 @@ In polyacetyline this is not an actual symmetry since no physical process preven
 
 <div class="row mt-3" id="figure-6">
     <div class="col-sm mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/spheres_inversion_trivial-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/spheres_inversion_trivial-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/spheres_inversion_trivial-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/spheres_inversion_trivial-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/spheres_inversion_trivial-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/spheres_inversion_trivial-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-0" src="/assets/img/spheres_inversion_trivial.png" />
+    <img src="/assets/img/spheres_inversion_trivial.png" class="img-fluid rounded z-depth-0" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        
-
-<figure>
+        <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/spheres_inversion_topological-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/spheres_inversion_topological-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/spheres_inversion_topological-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/spheres_inversion_topological-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/spheres_inversion_topological-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/spheres_inversion_topological-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-0" src="/assets/img/spheres_inversion_topological.png" />
+    <img src="/assets/img/spheres_inversion_topological.png" class="img-fluid rounded z-depth-0" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
@@ -752,25 +710,19 @@ To begin to understand how the continuum is altered, we look at the simplest exa
 </details>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/pot_and_boundstate-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/pot_and_boundstate-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/pot_and_boundstate-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/pot_and_boundstate-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/pot_and_boundstate-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/pot_and_boundstate-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/pot_and_boundstate.png" data-zoomable="" />
+    <img src="/assets/img/pot_and_boundstate.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">The delta function potential (red) along with the resulting bound state (gray).</figcaption>
+  </picture><figcaption class="caption">The delta function potential (red) along with the resulting bound state (gray).</figcaption>
 
 </figure>
 
@@ -881,50 +833,38 @@ For this, we can take</p>
 If we include the ground state as a positive \(\delta\)-function, we get:</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/Delta_rho-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/Delta_rho-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/Delta_rho-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Delta_rho-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Delta_rho-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Delta_rho-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/Delta_rho.png" data-zoomable="" />
+    <img src="/assets/img/Delta_rho.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">The change in density of states for with delta functions artificially broadened to make them visible. This function integrates to zero: the Friedel sum rule in action.</figcaption>
+  </picture><figcaption class="caption">The change in density of states for with delta functions artificially broadened to make them visible. This function integrates to zero: the Friedel sum rule in action.</figcaption>
 
 </figure>
 
 </div>
 
 <p>This is a simple example of how charge can be pulled from the continuum to make a bound state: leaving a depletion of density in the continuum.</p>]]></content><author><name></name></author><category term="short-calculations" /><summary type="html"><![CDATA[In models that naturally have a continuum, it is sometimes possible to find bound states with the application of a potential well. These states don’t come out of nowhere though and since they are combinations of continuum states, the continuum itself is altered. To begin to understand how the continuum is altered, we look at the simplest example here: A \(\delta\)-function potential in one-dimension and with quadratic dispersion.]]></summary></entry><entry><title type="html">Quasicrystalline Art</title><link href="https://jhwilson.github.io/blog/2019/Quasicrystalline-Art/" rel="alternate" type="text/html" title="Quasicrystalline Art" /><published>2019-09-05T00:00:00+00:00</published><updated>2019-09-05T00:00:00+00:00</updated><id>https://jhwilson.github.io/blog/2019/Quasicrystalline-Art</id><content type="html" xml:base="https://jhwilson.github.io/blog/2019/Quasicrystalline-Art/"><![CDATA[<div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/quasicrystal_imagequilt-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/quasicrystal_imagequilt-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/quasicrystal_imagequilt-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/quasicrystal_imagequilt-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/quasicrystal_imagequilt-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/quasicrystal_imagequilt-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/quasicrystal_imagequilt.png" data-zoomable="" />
+    <img src="/assets/img/quasicrystal_imagequilt.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">An image quilt of quasicrystals</figcaption>
+  </picture><figcaption class="caption">An image quilt of quasicrystals</figcaption>
 
 </figure>
 
@@ -936,25 +876,19 @@ If we include the ground state as a positive \(\delta\)-function, we get:</p>
 <p>This led to this beautiful cover in Science<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/F1.large-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/F1.large-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/F1.large-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/F1.large-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/F1.large-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/F1.large-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/F1.large.jpg" data-zoomable="" />
+    <img src="/assets/img/F1.large.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">Cover image from a Science magazine cover story.</figcaption>
+  </picture><figcaption class="caption">Cover image from a Science magazine cover story.</figcaption>
 
 </figure>
 
@@ -963,25 +897,19 @@ If we include the ground state as a positive \(\delta\)-function, we get:</p>
 <p>This phenomena is a perfect example of the kind of research I’ve been doing a lot with these days, and so it inspired the new logo for this website</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/quasicrystal_logo-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/quasicrystal_logo-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/quasicrystal_logo-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/quasicrystal_logo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/quasicrystal_logo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/quasicrystal_logo-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/quasicrystal_logo.png" />
+    <img src="/assets/img/quasicrystal_logo.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">Building a Penrose tiling from two sheets of graphene twisted at 30-degrees with respect to each other.</figcaption>
+  </picture><figcaption class="caption">Building a Penrose tiling from two sheets of graphene twisted at 30-degrees with respect to each other.</figcaption>
 
 </figure>
 
@@ -990,25 +918,19 @@ If we include the ground state as a positive \(\delta\)-function, we get:</p>
 <p>One can tell how this is done: You find the points where two hexagons are on top of each other, put down a point, and connect. There are three shapes: a rhombus, an equilateral triangle, and a square. This can be done along the entire sheet to create an amazing looking pattern. For completeness, we can fill in the rest of the pictured grid to obtain:</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/quasicrystal_logo2-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/quasicrystal_logo2-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/quasicrystal_logo2-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/quasicrystal_logo2-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/quasicrystal_logo2-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/quasicrystal_logo2-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/quasicrystal_logo2.png" />
+    <img src="/assets/img/quasicrystal_logo2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">A fully Penrose tiled sheet.</figcaption>
+  </picture><figcaption class="caption">A fully Penrose tiled sheet.</figcaption>
 
 </figure>
 
@@ -1321,25 +1243,19 @@ j(x,t) = \psi^*(x,t) \sum_{n=0} \frac{a_{n+1}}{(n+1)!} \sum_{m=0}^n (i \overleft
 <p>\begin{equation} U(x) = \alpha\sum_{n=-\infty}^\infty \delta(x - n a)\end{equation}.</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/Delta-fcn-lattice-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/Delta-fcn-lattice-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/Delta-fcn-lattice-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Delta-fcn-lattice-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Delta-fcn-lattice-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Delta-fcn-lattice-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/Delta-fcn-lattice.png" />
+    <img src="/assets/img/Delta-fcn-lattice.png" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">A visual representation of <i>U(x)</i>.</figcaption>
+  </picture><figcaption class="caption">A visual representation of <i>U(x)</i>.</figcaption>
 
 </figure>
 
@@ -1397,25 +1313,19 @@ j(x,t) = \psi^*(x,t) \sum_{n=0} \frac{a_{n+1}}{(n+1)!} \sum_{m=0}^n (i \overleft
 <p>Armed with this equation, we can use \(q\) and an integer to label our energies and we obtain the following energy bands by just solving for \(E\) (setting \(m = 10\), \(a = 1\), and \(\alpha = 0.3\))</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/Bands-delta-fcn-lattice-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/Bands-delta-fcn-lattice-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/Bands-delta-fcn-lattice-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Bands-delta-fcn-lattice-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Bands-delta-fcn-lattice-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Bands-delta-fcn-lattice-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/Bands-delta-fcn-lattice.png" />
+    <img src="/assets/img/Bands-delta-fcn-lattice.png" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">Energy bands in the delta-function lattice</figcaption>
+  </picture><figcaption class="caption">Energy bands in the delta-function lattice</figcaption>
 
 </figure>
 
@@ -1428,25 +1338,19 @@ j(x,t) = \psi^*(x,t) \sum_{n=0} \frac{a_{n+1}}{(n+1)!} \sum_{m=0}^n (i \overleft
 <p>Additionally, if the energy ever goes negative the solutions turn from plane waves \(e^{\pm i k (x-na)}\) into functions localized around the delta functions \(e^{\pm\kappa(x-na)}\). In fact, the wave functions look like this for a \(q=0\) state:</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/Localized-states-delta-fcn-lattice-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/Localized-states-delta-fcn-lattice-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/Localized-states-delta-fcn-lattice-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Localized-states-delta-fcn-lattice-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Localized-states-delta-fcn-lattice-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Localized-states-delta-fcn-lattice-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/Localized-states-delta-fcn-lattice.png" />
+    <img src="/assets/img/Localized-states-delta-fcn-lattice.png" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  </picture>
-
-  <figcaption class="caption">Negative energy localized states in delta-function lattice with alpha less than 0.</figcaption>
+  </picture><figcaption class="caption">Negative energy localized states in delta-function lattice with alpha less than 0.</figcaption>
 
 </figure>
 
@@ -1500,25 +1404,19 @@ to the spin \(\mathbf{S}=\frac12\sigma\) where \(\sigma = (\sigma_x,\sigma_y,\si
 <p>where we have defined \(\phi\) by \(p_y+ip_x = p e^{i\phi}\). Note that when \(p_{x,y} \rightarrow -p_{x,y}\), the occupations stay the same. However, if we just look at one energy, \(\epsilon_-(p)\) the ground state energy, we see that the state we get when \(p_{x,y} \rightarrow -p_{x,y}\) is almost orthogonal to the original state.</p>
 
 <div style="text-align:center">
-
-
 <figure>
 
   <picture>
     
-      <source media="(max-width: 480px)" srcset="/assets/img/Energy-splitting-rashba-so-480.webp" />
-    
-      <source media="(max-width: 800px)" srcset="/assets/img/Energy-splitting-rashba-so-800.webp" />
-    
-      <source media="(max-width: 1400px)" srcset="/assets/img/Energy-splitting-rashba-so-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Energy-splitting-rashba-so-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Energy-splitting-rashba-so-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Energy-splitting-rashba-so-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/Energy-splitting-rashba-so.png" />
+    <img src="/assets/img/Energy-splitting-rashba-so.png" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
-
-  
 
 </figure>
 
